@@ -1,0 +1,118 @@
+.adopt-payment-container {
+    padding-top: 130px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.adopt-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.dog-content {
+    width: 45%;
+    text-align: center;
+}
+
+.dog-picture {
+    width: 100%;
+    height: auto;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.dog-names {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.furry-descriptions {
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: justify;
+    color: #333;
+}
+
+.adopt-payment {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.payment-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    /* margin-bottom: 40px; */
+}
+
+.payment-form h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.payment-options {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.payment-options label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.payment-options input[type="radio"] {
+    width: 10%;
+    cursor: pointer;
+}
+
+.payment-logo {
+    width: 50px;
+    height: auto;
+    display: inline-block;
+}
+
+.payment-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.payment-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .adopt-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dog-content, .adopt-payment {
+        width: 100%;
+    }
+}

@@ -1,0 +1,138 @@
+.donate-page-payment {
+    width: 80%;
+    margin: auto;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+.donate-pagebg{
+    background: 
+        linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5)),
+        url(../../../Assets/Images/Breads\ Gallery/w2-bg.webp);
+    background-size: cover;
+}
+.donation-section {
+    width: 50%;
+    margin-bottom: 100px;
+}
+
+.dnt-option{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.donation-section img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+}
+.select-option{
+    width: 30%;
+    margin: auto;
+}
+.donation-section h1 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+.donation-section label{
+    cursor: pointer;
+}
+.donate-payment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.left-side {
+    width: 50%;
+    text-align: center;
+}
+
+.left-side img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.left-side p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.right-side {
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.payment-donate {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.payment-donate label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.payment-donate input {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.payment-icon {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.payment-donate p {
+    margin: 0;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between input fields */
+}
+
+.input-fields input, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px; /* Space above the button */
+}
+
+.submit-btn:hover {
+    background-color: darkorange;
+}

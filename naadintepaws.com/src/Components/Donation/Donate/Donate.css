@@ -1,0 +1,159 @@
+.donate-page {
+    padding-top: 200px;
+    margin: auto;
+    background: 
+        linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5)),
+        url(../../../Assets/Images/Breads\ Gallery/w2-bg.webp);
+    background-size: cover;
+}
+
+
+
+.intro-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto 80px;
+}
+
+.intro-text {
+    width: 50%;
+}
+
+.intro-text h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.orange-text {
+    color: #ffac13;
+}
+
+.intro-text p {
+    font-size: 20px;
+    color: #333;
+    font-weight: 500;
+}
+
+.intro-image {
+    object-fit: cover;
+    width: 50%;
+}
+
+.intro-image img {
+    width: 700px;
+}
+
+.save-dogs-section {
+    margin-bottom: 20px;
+}
+
+.save-dogs-section h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.save-dogs-section p {
+    font-size: 20px;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+
+.cards-section {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto 50px;
+}
+
+.card {
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 70px;
+}
+
+.card img {
+    width: 100%;
+    height: 280px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card button {
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #ffac13;
+    padding: 15px 18px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.card button:hover {
+    background-color: #ffac13;
+    color: white;
+}
+
+.boxes-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto 50px;
+}
+
+.box {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+.box-logo {
+    width: 80px;
+    height: 60px;
+    color: #ffac13;
+}
+
+.icon-bg {
+    width: 30%;
+    height: 100px;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 3px dotted #ffac13;
+}
+.box h3{
+    color: #333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.separator {
+    width: 60%;
+    margin: 20px auto;
+    border: none;
+    border-top: 2px solid #ffac13;
+    position: absolute;
+    top: 80px;
+    left: 260px;
+}
+

@@ -1,0 +1,72 @@
+/* FurryFrames.css */
+
+/* Container styling */
+.dog-containerFurry {
+    padding-top: 200px;
+    width: 80%;
+    margin: auto;
+  }
+  
+  /* Section heading styling */
+  .section-heading {
+    text-align: center;
+    font-size: 2.5em;
+    color: #ffac13;
+    margin-bottom: 40px;
+  }
+  
+  /* Dog cards container */
+  .dog-furry {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Individual dog card styling */
+  .dog-cards {
+    width: 500px;
+    padding: 20px;
+    box-shadow: rgb(163, 163, 233) 0px 0px 0px 1px inset, rgb(255, 255, 255) 10px -10px 0px -1px, rgb(167, 242, 166) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -1px, rgb(242, 228, 161) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -1px, rgb(241, 184, 143) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -1px, rgb(239, 145, 145) 40px -40px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+
+  /* Dog photo styling */
+  .dog-photos {
+    height: 300px;
+    width: 500px;
+    border-radius: 5px;
+  }
+  
+  /* Dog name styling */
+  .dog-names {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  /* Dog description styling */
+.dog-descriptions {
+    color: #666;
+    font-size: 1rem;
+  }
+  
+  .dog-adoptbtn{
+    background-color: #ffac13;
+    color: white;
+    border: none;
+    padding: 15px 18px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .dog-adoptbtn:hover{
+    background-color: #ff4500;
+  }
+
+  
